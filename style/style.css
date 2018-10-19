@@ -12,6 +12,12 @@ th {
   vertical-align: middle !important;
   text-align: center !important;
 }
+
+td:first-of-type,
+td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
 .main-heading {
   text-align: center;
   margin: 15px;
@@ -26,12 +32,14 @@ th {
 }
 
 .btn-secondary {
-  background: #8ba6a9;
+  background: #40798c;
+  border-color: #40798c;
   color: #fff;
   font-weight: bold;
 }
 .btn-secondary:hover {
-  background: #66797b;
+  background: #2f5966;
+  border-color: #2f5966;
   color: #fff;
 }
 .;
