@@ -15,6 +15,19 @@
   <h1 class="main-heading">5 Day Weather Forecast</h1>
   <div class="container"></div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAUg4_K8rCeridY2gfzuS8JZr-lV46xiwQ",
+    authDomain: "weather-browser-rita-bradley.firebaseapp.com",
+    databaseURL: "https://weather-browser-rita-bradley.firebaseio.com",
+    projectId: "weather-browser-rita-bradley",
+    storageBucket: "weather-browser-rita-bradley.appspot.com",
+    messagingSenderId: "1095842990904"
+  };
+  firebase.initializeApp(config);
+</script>
 <script src="/bundle.js"></script>
 
 
