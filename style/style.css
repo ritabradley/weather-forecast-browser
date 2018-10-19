@@ -1,0 +1,37 @@
+body {
+  background: #264653;
+  color: #fff;
+}
+
+svg {
+  height: 150px;
+}
+
+td,
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+.main-heading {
+  text-align: center;
+  margin: 15px;
+}
+
+.table-hover tbody tr:hover {
+  background: #203a44;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+.btn-secondary {
+  background: #8ba6a9;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background: #66797b;
+  color: #fff;
+}
+.;
