@@ -22,7 +22,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-preset-stage-1": "^6.24.1",
     "kelvin-to-fahrenheit": "^1.1.0",
     "lodash": "^4.17.13",
